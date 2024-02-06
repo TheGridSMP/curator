@@ -1,4 +1,8 @@
-name: plugin-template
+name: curator
 version: '${version}'
-main: the.grid.smp.plugintemplate.PluginTemplate
+main: the.grid.smp.curator.Curator
 api-version: '1.20'
+load: STARTUP
+libraries:
+  - org.ow2.asm:asm:9.5
+  - net.bytebuddy:byte-buddy-net.bytebuddy.agent:1.14.10

@@ -13,6 +13,9 @@ repositories {
 
 dependencies {
     compileOnly("org.spigotmc:spigot-api:1.20.2-R0.1-SNAPSHOT")
+
+    compileOnly("net.bytebuddy:byte-buddy-net.bytebuddy.agent:1.14.10")
+    compileOnly("org.ow2.asm:asm:9.5")
 }
 
 tasks.withType<ProcessResources> {
